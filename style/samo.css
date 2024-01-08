@@ -5,32 +5,53 @@
  }
  .banner{
     background-image: url('/images/Banner\ Image.png');
-    width: 1600px;
+    color: white;
+    position: relative;
+    width: 1200px;
     height: 600px;
-    margin: 10px 140px;
-    border-radius: 16px 16px;
+    align-items: center;
     justify-content: center;
+    display: flex;
+    background-size: 100% ;
     background-repeat: no-repeat;
-    background-position: 200px 10px;
-    background: linear-gradient();
+    margin: 20px 290px;
+ 
+    
+    
  }
  .overlay{
-    width: 100%;
-    height: 100%;
-    color: white;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-    
     font-family: merriweather;
+    align-items: center;
     
  }
  .heading1{
     font-weight: 300;
     font-size: 32px;
+    align-items: center;
+    
  }
  .heading2{
     font-weight: 700;
     font-size: 72px;
+   
+ }
+.gradiant{
+    
+    background: linear-gradient(to top right rgba(7, 2, 17,)); 
+    
+    width: 100%;
+    height: 100%;
+    position: absolute;
+     
+   
+
+ }
+ .banner2{
+    background: #fff;
+    width: 1600px;
+    height: 700px;
+ }
+ .heading4{
+    width: 383px;
+    height: 107px;
  }
